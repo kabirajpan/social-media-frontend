@@ -1,0 +1,83 @@
+.calculator{
+    height: 100vh;
+    width: 100vw;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculatorWrapper {
+    height: 450px;
+    width: 300px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15px;
+    border-radius: 10px;
+}
+
+.calculatorScreen {
+    height: 125px;
+    width: 270px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.calculatorScreenResult {
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+.calculatorButtons {
+    height: inherit;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.buttonLine01, .buttonLine02, .buttonLine03, .buttonLine04, .buttonLine05 {
+    width: inherit;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.button {
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+/* .button:hover {
+    background-color: #dbdbdb;
+} */
+
+.button:active {
+    background-color: #dbdbdb;
+}
+.operatorButton:focus {
+    background-color: #474747;
+}
+.button-0 {
+    width: 130px;
+}
